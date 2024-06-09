@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
+    "build_noemit": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix --ignore-path .gitignore"
   },
@@ -15,6 +16,7 @@
     "axios": "^1.6.3",
     "core-js": "^3.29.0",
     "eslint": "^9.4.0",
+    "highcharts": "^11.4.3",
     "highcharts-vue": "^1.4.3",
     "roboto-fontface": "*",
     "unplugin-fonts": "^1.1.1",
@@ -22,7 +24,7 @@
     "vite-plugin-vuetify": "^2.0.3",
     "vue": "^3.4.21",
     "vue-router": "^4.0.0",
-    "vuetify": "^3.0.0"
+    "vuetify": "^3.6.8"
   },
   "devDependencies": {
     "@babel/types": "^7.21.4",

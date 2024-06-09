@@ -65,6 +65,10 @@ button:focus-visible {
   text-align: center;
 }
 
+.text-h6 {
+  font-size: 0.75rem !important;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import Details from "@/components/Details.vue";
+import Details from "@/components/Details/Details.vue";
 </script>
 
 <template>

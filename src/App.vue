@@ -1,14 +1,10 @@
-<script setup lang="ts">
-import Home from './components/Home.vue'
+<script lang="ts" setup>
+import Error from "@/components/Error.vue";
 </script>
 
 <template>
-  <div>
-    <a href="#" target="_blank">
-      <img src="/crypto-trading.svg" class="logo" alt="crypto-dash logo" />
-    </a>
-  </div>
-  <Home msg="crypto-dash" />
+  <Error />
+  <RouterView />
 </template>
 
 <style scoped>
