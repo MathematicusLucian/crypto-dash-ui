@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
 </script>
 
 <template>
   <div>
     <a href="#" target="_blank">
-      <img src="/crypto-trading.svg" class="logo" alt="Vite logo" />
+      <img src="/crypto-trading.svg" class="logo" alt="crypto-dash logo" />
     </a>
   </div>
-  <HelloWorld msg="crypto-dash" />
+  <Home msg="crypto-dash" />
 </template>
 
 <style scoped>
