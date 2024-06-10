@@ -11,7 +11,7 @@
   </template>
   
   <script setup>
-  import { errorState } from "@/states/errorState";
+  import { errorState } from "@/state/errorState";
   
   defineExpose({
     errorState,
